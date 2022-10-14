@@ -1,0 +1,12 @@
+[Error - 9:02:10 AM] Client HTML Language Server: connection to server is erroring. Shutting down server.
+[Error - 9:02:10 AM] Client HTML Language Server: connection to server is erroring. Shutting down server.
+[Error - 9:02:10 AM] Connection to server got closed. Server will not be restarted.
+[Error - 9:02:10 AM] Stopping server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 9:02:10 AM] Stopping server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 9:02:10 AM] Stopping server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 

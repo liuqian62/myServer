@@ -1,0 +1,978 @@
+[2022-10-14 15:25:46.926] [exthost] [info] Extension host with pid 9468 started
+[2022-10-14 15:25:46.942] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/875700fd4e1f7d624f80b0919cbcf281/vscode.lock': Lock acquired.
+[2022-10-14 15:25:47.424] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-10-14 15:25:47.440] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-14 15:25:47.441] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-14 15:25:47.441] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-14 15:25:48.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-14 15:25:48.053] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-14 15:25:48.737] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-14 15:25:48.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-14 15:25:48.739] [exthost] [info] Eager extensions activated
+[2022-10-14 15:25:55.066] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-10-14 15:40:36.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-10-14 15:40:36.214] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-10-14 15:40:37.764] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-10-14 16:32:01.729] [exthost] [info] ExtensionService#_doActivateExtension sandcastle.vscode-open, startup: false, activationEvent: '*'
+[2022-10-14 16:41:38.092] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-14 16:52:13.373] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-10-14 16:52:54.722] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-10-14 16:52:54.725] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-10-14 16:52:54.726] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-10-14 17:02:10.852] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:02:10.916] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:02:11.921] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:02:11.922] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:08:19.556] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:08:19.558] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:08:20.194] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:08:20.194] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:08:22.171] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:08:22.172] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:08:24.487] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:08:24.487] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:09:16.528] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:09:16.529] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:09:19.377] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:09:19.379] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:09:22.987] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:09:22.987] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:09:29.343] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:09:29.344] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:09:31.336] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:09:31.337] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:09:32.502] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:09:32.503] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:10:09.905] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:10:09.906] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:10:11.226] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:10:11.227] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:10:11.924] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:10:11.925] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:10:12.987] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:10:12.988] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:10:13.631] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:10:13.631] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:12:33.565] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:12:33.566] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:22:12.182] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:22:12.183] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:22:13.349] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:22:13.349] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:22:37.713] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:22:37.713] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:22:40.341] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:22:40.341] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:22:41.875] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:22:41.876] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:22:42.876] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:22:42.877] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:22:58.655] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:22:58.656] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:22:59.353] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:22:59.353] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:23:01.586] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:23:01.587] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:23:02.403] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:23:02.403] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)
+[2022-10-14 17:23:04.912] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-10-14 17:23:04.912] [exthost] [error] Error: Client is not running
+	at T.sendRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:416379)
+	at Object.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:694452)
+	at x.provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:48925)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75861
+	at ne._withAdapter (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:66986)
+	at ne.$provideDocumentSemanticTokens (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:92:75837)
+	at i._doInvokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13680)
+	at i._invokeHandler (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:13362)
+	at i._receiveRequest (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:12081)
+	at i._receiveOneMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:10834)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:100:8941
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:116:17106
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:19049)
+	at s._receiveMessage (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:23861)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:21304
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b.acceptChunk (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15880)
+	at /root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:15010
+	at p.invoke (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at b.fire (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at b._processReadQueue (/root/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/api/node/extensionHostProcess.js:69:34544)

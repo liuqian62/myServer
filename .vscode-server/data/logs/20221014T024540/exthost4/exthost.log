@@ -1,0 +1,15 @@
+[2022-10-14 11:10:41.917] [exthost] [info] Extension host with pid 6031 started
+[2022-10-14 11:10:41.933] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/875700fd4e1f7d624f80b0919cbcf281/vscode.lock': Lock acquired.
+[2022-10-14 11:10:42.334] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-14 11:10:42.336] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-14 11:10:42.337] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-14 11:10:42.725] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-14 11:10:42.726] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-14 11:10:43.391] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-14 11:10:43.391] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-14 11:10:43.392] [exthost] [info] Eager extensions activated
+[2022-10-14 11:10:46.893] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-10-14 11:13:34.454] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-10-14 14:41:23.273] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2022-10-14 14:41:23.287] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/875700fd4e1f7d624f80b0919cbcf281/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-14 14:41:23.637] [exthost] [info] Extension host with pid 6031 exiting with code 0

@@ -1,0 +1,165 @@
+[Trace 07:40:37.298] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///var/blog/md_html/hello.md
+[Trace 07:40:37.305] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:37.307] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:37.318] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:37.614] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 1
+[Debug 07:40:37.616] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:40:37.822] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 1
+[Debug 07:40:37.823] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:40:38.833] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:38.837] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:40:39.077] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:40:39.411] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 2
+[Debug 07:40:39.411] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:40:39.641] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 2
+[Trace 07:40:39.774] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:39.775] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:40.151] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:40.152] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:40.279] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:40.281] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:40:40.531] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Trace 07:40:40.663] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:40.664] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:40.849] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:40.851] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:40:41.101] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:40:41.319] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 7
+[Debug 07:40:41.319] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:40:41.421] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 7
+[Trace 07:40:41.430] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:41.431] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:40:41.682] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Trace 07:40:41.704] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:41.705] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:41.887] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:41.887] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.022] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.023] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.227] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.227] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.275] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.276] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.444] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.446] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:40:42.695] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:40:42.915] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 14
+[Debug 07:40:42.915] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:40:42.921] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 14
+[Trace 07:40:42.945] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:42.950] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:43.088] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:43.089] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:40:43.354] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:40:43.556] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 16
+[Debug 07:40:43.556] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:40:43.563] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 16
+[Trace 07:40:43.707] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:43.708] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:40:43.894] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:40:43.894] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:40:44.157] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Trace 07:40:44.315] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 18
+[Debug 07:40:44.316] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Debug 07:40:44.369] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 18
+[Trace 07:40:46.315] VsCodeClientWorkspace: onDidChangeWatchedFiles: 2: file:///var/blog/md_html/hello.md
+[Trace 07:41:06.693] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:42:29.224] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:29.226] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:42:29.602] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 18
+[Debug 07:42:29.602] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:30.650] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:30.651] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:42:31.051] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 19
+[Debug 07:42:31.051] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:42:31.056] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Debug 07:42:31.067] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 19
+[Trace 07:42:32.302] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:32.303] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:32.550] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Trace 07:42:32.655] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 20
+[Debug 07:42:32.656] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Debug 07:42:32.704] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 20
+[Trace 07:42:33.754] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:33.761] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:42:34.136] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 21
+[Debug 07:42:34.136] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:42:34.142] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Debug 07:42:34.153] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 21
+[Trace 07:42:36.285] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:36.285] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:36.551] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:42:36.638] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 22
+[Debug 07:42:36.639] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:36.639] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 22
+[Trace 07:42:36.775] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:36.776] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:37.120] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 23
+[Debug 07:42:37.121] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:37.127] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 23
+[Debug 07:42:37.127] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Trace 07:42:37.857] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:37.858] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:42:38.058] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:38.059] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:42:38.112] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:38.115] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:42:38.260] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:38.261] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:38.516] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:42:38.597] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 27
+[Debug 07:42:38.597] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:38.614] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 27
+[Trace 07:42:38.746] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:38.746] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:39.008] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:42:39.082] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 28
+[Debug 07:42:39.082] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:39.095] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 28
+[Trace 07:42:39.431] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:39.431] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:39.694] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:42:39.799] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 29
+[Debug 07:42:39.799] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:39.801] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 29
+[Trace 07:42:40.123] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:40.124] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:40.354] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:42:40.462] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 30
+[Debug 07:42:40.463] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:40.467] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 30
+[Trace 07:42:41.027] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:41.028] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:42:41.226] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:41.226] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:41.553] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 32
+[Debug 07:42:41.553] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:41.573] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 32
+[Debug 07:42:41.573] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Trace 07:42:46.204] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:42:46.205] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:42:46.542] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 33
+[Debug 07:42:46.543] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:42:46.575] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 33
+[Debug 07:42:46.575] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Trace 07:43:14.716] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///var/blog/md_html/hello.md
+[Trace 07:43:14.717] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:43:15.028] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 34
+[Debug 07:43:15.028] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:43:15.069] DocumentSymbolProvider: provideDocumentSymbols — file:///var/blog/md_html/hello.md 34
+[Debug 07:43:15.069] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Trace 07:43:22.229] VsCodeClientWorkspace: onDidChangeWatchedFiles: 2: file:///var/blog/md_html/hello.md
+[Trace 07:43:40.577] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:46:00.014] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:46:00.016] LinkProvider: compute - file:///var/blog/md_html/hello.md
+[Debug 07:46:00.305] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 34
+[Debug 07:46:00.305] TableOfContentsProvider: create - file:///var/blog/md_html/hello.md
+[Trace 07:46:01.956] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:46:05.622] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:46:05.924] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 34
+[Trace 07:46:07.805] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 07:46:19.812] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Debug 07:46:20.121] MdFoldingProvider: provideFoldingRanges — file:///var/blog/md_html/hello.md 34
+[Trace 07:46:48.540] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 08:35:20.365] Server: connection.languages.diagnostics.on: file:///var/blog/md_html/hello.md
+[Trace 08:35:20.368] VsCodeClientWorkspace: TextDocument.onDidClose: file:///var/blog/md_html/hello.md
